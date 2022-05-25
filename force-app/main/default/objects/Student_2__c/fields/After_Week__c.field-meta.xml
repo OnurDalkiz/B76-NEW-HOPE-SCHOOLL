@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>After_Week__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(  WEEKDAY( TODAY() )  , 
+  1, &quot;I LOVE SLEEPING&quot;, 
+  2, &quot;I LOVE SALESFORCE&quot;, 
+  3, &quot;I LOVE SALESFORCE&quot;, 
+  4, &quot;I LOVE SALESFORCE&quot;, 
+  5, &quot;I LOVE SALESFORCE&quot;, 
+  6, &quot;I LOVE SALESFORCE&quot;,  
+  7,&quot;I LOVE SLEEPING&quot;, 
+                NULL )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>After Week</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

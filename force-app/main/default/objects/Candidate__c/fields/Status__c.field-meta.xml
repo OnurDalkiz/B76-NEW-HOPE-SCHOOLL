@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Kayit Yapildi</fullName>
+                <default>false</default>
+                <label>Kayit Yapildi</label>
+            </value>
+            <value>
+                <fullName>Kayit Yapilmadi</fullName>
+                <default>false</default>
+                <label>Kayit Yapilmadi</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Https_Check</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT( 
+    BEGINS(Website  , &quot;https://&quot;) 
+   )</errorConditionFormula>
+    <errorDisplayField>Website</errorDisplayField>
+    <errorMessage>Web Sitesi &apos;http&apos; Protokolu Icermeli, Tamami Kucuk Harf Olmali.</errorMessage>
+</ValidationRule>

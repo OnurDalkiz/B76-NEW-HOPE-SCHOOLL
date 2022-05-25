@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tek_Sayi__c</fullName>
+    <externalId>false</externalId>
+    <formula>MOD(YEAR( TODAY() ) - YEAR( BirthOfDate__c ) ,2) = 0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tek Sayi</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

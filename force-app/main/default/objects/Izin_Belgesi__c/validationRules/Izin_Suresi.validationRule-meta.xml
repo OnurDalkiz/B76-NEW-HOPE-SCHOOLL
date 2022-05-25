@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Izin_Suresi</fullName>
+    <active>true</active>
+    <errorConditionFormula>(Izinden_Donus_Tarihi__c - Izine_Cikis_Tarihi__c)&gt;30</errorConditionFormula>
+    <errorMessage>Tek seferde 30 günden fazla izin kullanılamaz</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountNumberCanNotBeChanged</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(AccountNumber) &amp;&amp; NOT(ISBLANK( PRIORVALUE(AccountNumber))),  NOT( ISBLANK(AccountNumber) ))</errorConditionFormula>
+    <errorMessage>Account Number Can Not Be Changed</errorMessage>
+</ValidationRule>

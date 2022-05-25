@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Toplanti__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Toplanti</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Toplanti__c.Toplanti_Durumu__c</field>
+            <operation>equals</operation>
+            <value>Acik</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Toplanti__c</referenceTo>
+    <relationshipLabel>Talepler</relationshipLabel>
+    <relationshipName>Talepler</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

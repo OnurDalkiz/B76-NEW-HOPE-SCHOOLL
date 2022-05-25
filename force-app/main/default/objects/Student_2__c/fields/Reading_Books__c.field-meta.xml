@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reading_Books__c</fullName>
+    <externalId>false</externalId>
+    <label>Reading Books</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sherlock Holmes</fullName>
+                <default>false</default>
+                <label>Sherlock Holmes</label>
+            </value>
+            <value>
+                <fullName>GOT</fullName>
+                <default>false</default>
+                <label>GOT</label>
+            </value>
+            <value>
+                <fullName>ROL</fullName>
+                <default>false</default>
+                <label>ROL</label>
+            </value>
+            <value>
+                <fullName>HP</fullName>
+                <default>false</default>
+                <label>HP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StudentIsPrivateOrCorporate</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( isCorporate__c , 
+ISBLANK( Account__c) ||  NOT(ISBLANK( Parent__c )) ,  
+
+(IF((YEAR(TODAY()) - YEAR(BirthOfDate__c ))&lt;18 ,NOT(ISBLANK( Account__c)) || ISBLANK( Parent__c ), NOT(ISBLANK( Parent__c ))
+
+
+)))</errorConditionFormula>
+    <errorMessage>Nano Pronlem</errorMessage>
+</ValidationRule>

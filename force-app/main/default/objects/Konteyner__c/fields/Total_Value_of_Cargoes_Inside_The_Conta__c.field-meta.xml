@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Value_of_Cargoes_Inside_The_Conta__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Kargolarin Toplam Degerini Gosterir</inlineHelpText>
+    <label>Total Value of Cargoes Inside The Conta</label>
+    <summarizedField>Kargo__c.Currency__c</summarizedField>
+    <summaryForeignKey>Kargo__c.Konteyner__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

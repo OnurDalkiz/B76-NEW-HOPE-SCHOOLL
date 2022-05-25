@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ise_Baslama_Tarihi__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(  RecordType.Name, &apos;Yillik Izin&apos;, ( Izinden_Donus_Tarihi__c  + 1),&apos;Rapor&apos;,( Rapor_Biti_Tarihi__c ),&apos;Mazeret Izni&apos;, ( Izinden_Donus_Tarihi__c  + 1), Null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Ise Baslama Tarihi</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

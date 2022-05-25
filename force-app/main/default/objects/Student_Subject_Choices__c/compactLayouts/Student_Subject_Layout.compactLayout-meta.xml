@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Subject_Layout</fullName>
+    <fields>Student_2__c</fields>
+    <fields>Subject__c</fields>
+    <fields>Name</fields>
+    <fields>Year__c</fields>
+    <fields>Semester__c</fields>
+    <label>Student Subject Layout</label>
+</CompactLayout>

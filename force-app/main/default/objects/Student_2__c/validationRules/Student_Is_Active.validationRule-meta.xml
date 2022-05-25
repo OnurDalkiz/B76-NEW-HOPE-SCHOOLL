@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Is_Active</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( isActive__c , 
+OR(ISBLANK(Email__c),
+ISBLANK(Phone__c),
+ISBLANK(TEXT(Status__c))) 
+, false)</errorConditionFormula>
+    <errorDisplayField>isActive__c</errorDisplayField>
+    <errorMessage>When Student is Active, email and phone fields are not blank</errorMessage>
+</ValidationRule>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <externalId>false</externalId>
+    <label>State</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Country__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>States</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>TURKEY</controllingFieldValue>
+            <valueName>TURKEY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>CALİFORNİA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>WASHİNGTON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>ENGLAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>IRELAND</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

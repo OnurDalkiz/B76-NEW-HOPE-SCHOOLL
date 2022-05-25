@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>total_cargo_in_container__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Konteyner Icindeki Toplam Kargo Sayisi</inlineHelpText>
+    <label>Total Cargo In Container</label>
+    <summaryForeignKey>Kargo__c.Konteyner__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

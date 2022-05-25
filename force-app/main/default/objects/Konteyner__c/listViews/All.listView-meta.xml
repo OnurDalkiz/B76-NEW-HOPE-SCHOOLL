@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Plaka__c</columns>
+    <columns>Konteyner_Cikis_Tarihi__c</columns>
+    <columns>total_cargo_in_container__c</columns>
+    <columns>Total_Value_of_Cargoes_Inside_The_Conta__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Talep_T_r__c</fullName>
+    <externalId>false</externalId>
+    <label>Talep Türü</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Şikayet</fullName>
+                <default>false</default>
+                <label>Şikayet</label>
+            </value>
+            <value>
+                <fullName>Talep</fullName>
+                <default>false</default>
+                <label>Talep</label>
+            </value>
+            <value>
+                <fullName>Öneri</fullName>
+                <default>false</default>
+                <label>Öneri</label>
+            </value>
+            <value>
+                <fullName>Genel Değerlendirme</fullName>
+                <default>false</default>
+                <label>Genel Değerlendirme</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

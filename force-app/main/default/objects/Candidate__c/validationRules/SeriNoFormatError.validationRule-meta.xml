@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SeriNoFormatError</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(REGEX( ID_Seri_No__c , &quot;([A-Za-z]\\d{2}-?[A-Za-z]\\d{5})?&quot;))</errorConditionFormula>
+    <errorMessage>SeriNoFormatError</errorMessage>
+</ValidationRule>

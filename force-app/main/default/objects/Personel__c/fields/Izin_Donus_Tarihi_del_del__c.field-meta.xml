@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Izin_Donus_Tarihi_del_del__c</fullName>
+    <externalId>false</externalId>
+    <label>Izin Donus Tarihi</label>
+    <summarizedField>Izin_Belgesi__c.Izinden_Donus_Tarihi__c</summarizedField>
+    <summaryForeignKey>Izin_Belgesi__c.Personel__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

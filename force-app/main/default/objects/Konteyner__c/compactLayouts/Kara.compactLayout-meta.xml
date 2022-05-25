@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kara</fullName>
+    <fields>Name</fields>
+    <fields>Plaka__c</fields>
+    <fields>Karayolu_Varis__c</fields>
+    <fields>total_cargo_in_container__c</fields>
+    <fields>Total_Value_of_Cargoes_Inside_The_Conta__c</fields>
+    <fields>Sigorta__c</fields>
+    <label>Kara</label>
+</CompactLayout>
